@@ -22,6 +22,6 @@ if (!existsSync(distDir)) {
 }
 
 const port = 80
-const host = '39.107.88.8'
+const host = '0.0.0.0'
 
 nuxt.listen(port, host)
